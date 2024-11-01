@@ -1,0 +1,18 @@
+*
+
+# Track .gitignore itself
+!.gitignore
+
+# Unignore everything in the HW/ directory and its subdirectories
+!HW/
+!HW/**
+
+HW/**/.DS_Store
+HW/**/.idea/
+HW/**/.idea/**
+HW/20200*
+HW/20200*/
+HW/20200*/**
+
+HW/HW*/*
+!HW/HW*/**/
